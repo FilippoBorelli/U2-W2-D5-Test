@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ms-3">
+          <ul class="navbar-nav">
+            <img
+              src="/netflix_logo.png"
+              alt="logo"
+              class="h-4"
+              style="width: 100px"
+            />
+            <li class="nav-item">
+              <a
+                class="nav-link text-light fw-light"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Tv shows</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fw-light" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light fw-light" href="#"
+                >Recently Added</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light fw-light" href="#"
+                >My list</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex px-4">
+            <div class="p-2"><i class="bi bi-search text-light"></i></div>
+            <div class="p-2">
+              <p class="text-white-50 fw-bold pt-1" style="font-size: 13px">
+                KIDS
+              </p>
+            </div>
+            <div class="p-2"><i class="bi bi-bell-fill text-light"></i></div>
+            <div class="p-2">
+              <img
+                src="/kids_icon.png"
+                alt="avatar"
+                style="width: 20px; height: 20px"
+              />
+              <i
+                class="bi bi-caret-down-fill text-white mt-1 ms-1"
+                style="font-size: 8px"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid d-flex ms-2">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold fs-1" href="#"
+              >Tv Shows</a
+            >
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle rounded-0 ms-3 mt-2"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="background-color: black"
+              >
+                Genres
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid mx-4 g-0">
+        <h2 class="text-light fs-4 mb-3">Trending Now</h2>
+        <div class="row">
+          <div class="col col-2">
+            <img src="./media/media0.webp" alt="first" style="width: 104%" />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media1.jpg"
+              alt="second"
+              style="width: 104%; margin-left: -10px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media10.jpg"
+              alt="third"
+              style="width: 104%; margin-left: -20px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media11.jpg"
+              alt="fourth"
+              style="width: 104%; margin-left: -30px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media12.jpg"
+              alt="fifth"
+              style="width: 104%; margin-left: -40px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media13.jpg"
+              alt="sixth"
+              style="width: 104%; margin-left: -50px"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mx-4 g-0">
+        <h2 class="text-light fs-4 mb-3 mt-5">Watch It Again</h2>
+        <div class="row">
+          <div class="col col-2">
+            <img src="./media/media14.webp" alt="first" style="width: 104%" />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media15.jpg"
+              alt="second"
+              style="width: 104%; margin-left: -10px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media17.jpg"
+              alt="third"
+              style="width: 104%; margin-left: -20px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media16.webp"
+              alt="fourth"
+              style="width: 104%; margin-left: -30px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media18.jpg"
+              alt="fifth"
+              style="width: 104%; margin-left: -40px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media19.webp"
+              alt="sixth"
+              style="width: 104%; margin-left: -50px"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mx-4 g-0">
+        <h2 class="text-light fs-4 mb-3 mt-5">New Releases</h2>
+        <div class="row">
+          <div class="col col-2">
+            <img src="./media/media2.webp" alt="first" style="width: 104%" />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media20.jpg"
+              alt="second"
+              style="width: 104%; margin-left: -10px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media21.webp"
+              alt="third"
+              style="width: 104%; margin-left: -20px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media22.webp"
+              alt="fourth"
+              style="width: 104%; margin-left: -30px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media23.webp"
+              alt="fifth"
+              style="width: 104%; margin-left: -40px"
+            />
+          </div>
+          <div class="col col-2">
+            <img
+              src="./media/media24.jpg"
+              alt="sixth"
+              style="width: 104%; margin-left: -50px"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container mb-3">
+        <div
+          class="row w-2 text-left"
+          style="margin-left: 270px; margin-top: 100px"
+        >
+          <div class="col">
+            <i
+              class="bi bi-facebook text-light fw-light fs-5 opacity-50"
+              style="width: 20px"
+            ></i>
+          </div>
+          <div class="col">
+            <i
+              class="bi bi-instagram text-light fw-light fs-5 opacity-50"
+              style="width: 20px; margin-left: -220px"
+            ></i>
+          </div>
+          <div class="col">
+            <i
+              class="bi bi-twitter text-light fw-light fs-5 opacity-50"
+              style="width: 20px; margin-left: -440px"
+            ></i>
+          </div>
+          <div class="col">
+            <i
+              class="bi bi-youtube text-light fw-light fs-5 opacity-50"
+              style="width: 20px; margin-left: -660px"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto" style="width: 50%">
+        <div class="row mb-2">
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Audio and Subtitles
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Audio Description
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Help Center
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Gift Cards
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Media Center
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Investor Relations
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Jobs
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Terms of Use
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Privacy
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Legal Notices
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Cookie Preferences
+          </div>
+          <div
+            class="col text-light fw-light opacity-50"
+            style="font-size: 10px"
+          >
+            Corporate information
+          </div>
+        </div>
+        <div
+          class="row text-light fw-light opacity-50"
+          style="font-size: 10px; margin-left: -1px"
+        >
+          Contact Us
+        </div>
+        <button
+          class="text-light fw-light opacity-50 bg-dark mt-3"
+          style="font-size: 10px; margin-left: -2px"
+        >
+          Service Code
+        </button>
+        <div
+          class="text-light fw-light opacity-50 my-3"
+          style="font-size: 10px"
+        >
+          &copy; 1997-2019 Netflix, Inc. {i-0d0Ofcda2fdf9cOde}
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
